@@ -1,7 +1,18 @@
-# IndyDemos
-Indy 10 and 9 demos for reference.
+indy-project-demos
+==================
 
-Download locations
->Indy10 and Indy9: http://www.indyproject.org/sockets/demos/index.en.aspx
+Indy 10 and 9 demos for just reference.
 
->IndySSL: http://adg.bmpcoe.org/download/indyssl/
+official site: http://indyproject.org
+
+## originally downloads
+
+Indy10 and Indy9: http://www.indyproject.org/sockets/demos
+
+IndySSL: http://adg.bmpcoe.org/download/indyssl
+
+TCP/IP Delphi & Indy10 Client Server Demo: https://sourceforge.net/projects/indy10clieservr
+
+Delphi Internet Demos: http://sourceforge.net/projects/internetdemos
+
+Delphi Email Client: https://sourceforge.net/projects/delphiemail (not included in this repo)
