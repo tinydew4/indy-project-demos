@@ -85,6 +85,10 @@ procedure TForm1.btnConnectClick(Sender: TObject);
 var
   line: string;
 begin
+  //PassThrough needs to be set to False for the client to work with server's PassThrough behavior
+  //See : https://www.atozed.com/forums/thread-1320.html
+  IdSSLIOHandlerSocketOpenSSL.PassThrough := False;
+
   btnConnect.enabled:= false;
   IdTCPClient.Host:= edtHostAddr.text;
   try
